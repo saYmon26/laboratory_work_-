@@ -1,0 +1,93 @@
+{
+    "devices": [
+      {
+        "id": 1,
+        "name": "Smartphone",
+        "specifications": {
+          "brand": "TechCorp",
+          "model": "X9",
+          "features": [
+            "5G support",
+            "Triple camera",
+            "Water resistant"
+          ],
+          "dimensions": {
+            "width": "75mm",
+            "height": "160mm",
+            "depth": "8mm"
+          }
+        }
+      },
+      {
+        "id": 2,
+        "name": "Laptop",
+        "specifications": {
+          "brand": "CompuWare",
+          "model": "Ultrabook 2023",
+          "features": [
+            "Intel i7",
+            "16GB RAM",
+            "512GB SSD"
+          ],
+          "dimensions": {
+            "width": "220mm",
+            "height": "315mm",
+            "depth": "15mm"
+          }
+        }
+      },
+      {
+        "id": 3,
+        "name": "Smartwatch",
+        "specifications": {
+          "brand": "FitTrack",
+          "model": "Active Plus",
+          "features": [
+            "Heart rate monitor",
+            "GPS tracking",
+            "Water resistant"
+          ],
+          "dimensions": {
+            "diameter": "42mm",
+            "thickness": "10mm"
+          }
+        }
+      },
+      {
+        "id": 4,
+        "name": "Tablet",
+        "specifications": {
+          "brand": "TabTech",
+          "model": "Pro 12",
+          "features": [
+            "4K display",
+            "Stylus support",
+            "Long battery life"
+          ],
+          "dimensions": {
+            "width": "178mm",
+            "height": "245mm",
+            "depth": "6mm"
+          }
+        }
+      },
+      {
+        "id": 5,
+        "name": "Smart TV",
+        "specifications": {
+          "brand": "VisionLine",
+          "model": "Ultra HD 55",
+          "features": [
+            "HDR support",
+            "Voice control",
+            "Smart home integration"
+          ],
+          "dimensions": {
+            "width": "1220mm",
+            "height": "710mm",
+            "depth": "85mm"
+          }
+        }
+      }
+    ]
+  }
