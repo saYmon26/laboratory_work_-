@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot_configuration>
+    <robot_info>
+        <name>HomeAssistant-RB5</name>
+        <model>DomesticHelper 3000</model>
+        <serial_number>RB5-2024-001</serial_number>
+        <firmware_version>3.2.1</firmware_version>
+        <manufacturer>RoboTech Inc.</manufacturer>
+    </robot_info>
+
+    <sensors>
+        <lidar>
+            <range>360</range>
+            <resolution>0.5</resolution>
+            <update_frequency>10</update_frequency>
+            <safety_zone>1.5</safety_zone>
+        </lidar>
+        <camera>
+            <resolution>4K</resolution>
+            <fps>30</fps>
+            <object_recognition>true</object_recognition>
+            <facial_recognition>true</facial_recognition>
+        </camera>
+        <microphone>
+            <noise_cancellation>true</noise_cancellation>
+            <voice_recognition>true</voice_recognition>
+            <wake_word>Hey Robot</wake_word>
+        </microphone>
+    </sensors>
+
+    <navigation>
+        <map_file>home_layout.vmap</map_file>
+        <path_planning_algorithm>A*</path_planning_algorithm>
+        <obstacle_avoidance>true</obstacle_avoidance>
+        <max_speed>1.5</max_speed>
+        <battery_saver_mode>true</battery_saver_mode>
+    </navigation>
+
+    <tasks>
+        <cleaning>
+            <schedule>09:00, 14:00, 19:00</schedule>
+            <duration>30</duration>
+            <rooms>living_room,kitchen,hallway</rooms>
+            <intensity>medium</intensity>
+        </cleaning>
+        <monitoring>
+            <check_doors>true</check_doors>
+            <check_windows>true</check_windows>
+            <temperature_check>true</temperature_check>
+            <report_interval>60</report_interval>
+        </monitoring>
+        <assistance>
+            <object_fetching>true</object_fetching>
+            <reminder_delivery>true</reminder_delivery>
+            <emergency_alert>true</emergency_alert>
+            <intensity>hard</intensity>
+        </assistance>
+    </tasks>
+
+    <battery_management>
+        <capacity>5000</capacity>
+        <warning_level>15</warning_level>
+        <critical_level>5</critical_level>
+        <auto_charging>true</auto_charging>
+        <charging_station_location>kitchen_corner</charging_station_location>
+    </battery_management>
+
+    <safety_protocols>
+        <emergency_stop>true</emergency_stop>
+        <child_safety_mode>true</child_safety_mode>
+        <pet_avoidance>true</pet_avoidance>
+        <privacy_mode>22:00-07:00</privacy_mode>
+    </safety_protocols>
+</robot_configuration>
