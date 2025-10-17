@@ -1,0 +1,67 @@
+# Конфигурация системы умного дома
+smart_home:
+  version: "2.1.0"
+  location: "Москва, ул. Университетская, 123"
+  owner: "Иван Петров"
+  
+  # Настройки климат-контроля
+  climate_control:
+    heating:
+      target_temperature: 22.5
+      schedule:
+        day: 07:00-23:00
+        night: 23:00-07:00
+      eco_mode: true
+    air_conditioning:
+      enabled: true
+      max_temperature: 25.0
+      auto_adjust: true
+    
+  # Освещение
+  lighting:
+    living_room:
+      brightness: 85%
+      color_temperature: 4000K
+      motion_sensor: true
+      schedule: "18:00-23:30"
+    bedroom:
+      brightness: 45%
+      color_temperature: 2700K
+      night_mode: true
+    
+  # Безопасность
+  security:
+    alarm_system:
+      enabled: true
+      armed_schedule: "23:00-07:00"
+      notifications: true
+    cameras:
+      living_room:
+        resolution: "1080p"
+        motion_detection: true
+        recording: "motion_only"
+      entrance:
+        resolution: "4K"
+        facial_recognition: true
+    
+  # Умные устройства
+  devices:
+    robot_vacuum:
+      model: "RoboClean X5"
+      schedule: "10:00-11:00, 16:00-17:00"
+      rooms: ["living_room", "bedroom", "kitchen"]
+    smart_oven:
+      preheat_temperature: 180
+      cooking_presets:
+        pizza: 220
+        bake: 175
+        roast: 200
+    
+  # Энергосбережение
+  energy_management:
+    peak_hours: "07:00-10:00, 18:00-22:00"
+    max_power_consumption: 5000
+    solar_panels:
+      installed: true
+      capacity: 3000
+      battery_storage: true

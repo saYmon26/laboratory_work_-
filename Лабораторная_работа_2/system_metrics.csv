@@ -1,0 +1,6 @@
+timestamp,server_id,server_type,cpu_usage,memory_usage,disk_usage,disk_io_read,disk_io_write,network_in,network_out,temperature,power_consumption,service_response_time,error_rate,active_connections,queue_length,storage_iops,cache_hit_rate,load_average,swap_usage,thread_count,uptime
+2024-01-15 10:00:00,web-server-01,frontend,45.2,67.8,82.1,1250,890,150,220,93,450,120,0.1,850,5,1500,89.5,2.1,12.3,48,3600
+2024-01-15 10:00:00,db-server-01,database,23.4,45.6,91.2,8900,4500,80,150,62.1,380,45,0.01,120,2,8500,95.2,0.8,2.1,24,7200
+2024-01-15 10:00:00,app-server-01,backend,67.8,82.4,75.3,3400,2100,220,180,71.2,520,210,1.2,450,15,3200,78.3,4.5,25.6,96,5400
+2024-01-15 10:00:00,cache-server-01,cache,12.3,35.2,45.8,9800,8700,300,450,58.9,290,15,0.05,2000,8,12000,99.1,1.2,0.5,16,4800
+2024-01-15 10:05:00,web-server-01,frontend,52.1,71.3,82.5,1340,920,165,240,100,470,135,0.3,920,8,1620,87.3,2.8,15.2,52,3660
