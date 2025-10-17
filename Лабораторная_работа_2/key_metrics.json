@@ -1,0 +1,52 @@
+[
+  {
+    "timestamp":"2024-01-15 10:00:00",
+    "server_id":"web-server-01",
+    "cpu_usage":45.2,
+    "memory_usage":67.8,
+    "service_response_time":120,
+    "error_rate":0.1,
+    "active_connections":850,
+    "disk_usage":82.1
+  },
+  {
+    "timestamp":"2024-01-15 10:00:00",
+    "server_id":"db-server-01",
+    "cpu_usage":23.4,
+    "memory_usage":45.6,
+    "service_response_time":45,
+    "error_rate":0.01,
+    "active_connections":120,
+    "disk_usage":91.2
+  },
+  {
+    "timestamp":"2024-01-15 10:00:00",
+    "server_id":"app-server-01",
+    "cpu_usage":67.8,
+    "memory_usage":82.4,
+    "service_response_time":210,
+    "error_rate":1.2,
+    "active_connections":450,
+    "disk_usage":75.3
+  },
+  {
+    "timestamp":"2024-01-15 10:00:00",
+    "server_id":"cache-server-01",
+    "cpu_usage":12.3,
+    "memory_usage":35.2,
+    "service_response_time":15,
+    "error_rate":0.05,
+    "active_connections":2000,
+    "disk_usage":45.8
+  },
+  {
+    "timestamp":"2024-01-15 10:05:00",
+    "server_id":"web-server-01",
+    "cpu_usage":52.1,
+    "memory_usage":71.3,
+    "service_response_time":135,
+    "error_rate":0.3,
+    "active_connections":920,
+    "disk_usage":82.5
+  }
+]
