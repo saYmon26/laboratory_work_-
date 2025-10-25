@@ -1,0 +1,69 @@
+Компьютер: Gaming PC
+Процессор: Intel Core i9-11900K
+Оперативная память: 32 ГБ DDR4
+Видеокарта: NVIDIA GeForce RTX 3080
+Жесткий диск: 1 ТБ SSD
+Операционная система: Windows 10 Pro
+
+Компьютер: Office PC
+Процессор: Intel Core i5-10400
+Оперативная память: 16 ГБ DDR4
+Видеокарта: Integrated Intel UHD 630
+Жесткий диск: 500 ГБ HDD
+Операционная система: Windows 10 Home
+
+Компьютер: Workstation
+Процессор: AMD Ryzen 9 5900X
+Оперативная память: 64 ГБ DDR4
+Видеокарта: NVIDIA Quadro RTX 4000
+Жесткий диск: 2 ТБ SSD
+Операционная система: Ubuntu 20.04
+
+Компьютер: Budget PC
+Процессор: AMD Ryzen 5 5600G
+Оперативная память: 8 ГБ DDR4
+Видеокарта: Integrated Radeon Graphics
+Жесткий диск: 256 ГБ SSD
+Операционная система: Windows 10 Home
+
+Компьютер: Ultrabook
+Процессор: Intel Core i7-1165G7
+Оперативная память: 16 ГБ LPDDR4x
+Видеокарта: Integrated Intel Iris Xe
+Жесткий диск: 1 ТБ SSD
+Операционная система: Windows 10 Pro
+
+Компьютер: Mini PC
+Процессор: Intel Core i3-10110U
+Оперативная память: 8 ГБ DDR4
+Видеокарта: Integrated Intel UHD 620
+Жесткий диск: 512 ГБ SSD
+Операционная система: Windows 10 Home
+
+Компьютер: All-in-One
+Процессор: AMD Ryzen 7 4700U
+Оперативная память: 16 ГБ LPDDR4
+Видеокарта: Integrated Radeon Graphics
+Жесткий диск: 1 ТБ SSD
+Операционная система: Windows 10 Home
+
+Компьютер: Server
+Процессор: Intel Xeon Gold 5218
+Оперативная память: 128 ГБ DDR4
+Видеокарта: NVIDIA Tesla T4
+Жесткий диск: 4 ТБ HDD
+Операционная система: Windows Server 2019
+
+Компьютер: Chromebox
+Процессор: Intel Celeron 3867U
+Оперативная память: 4 ГБ LPDDR3
+Видеокарта: Integrated Intel HD Graphics 610
+Жесткий диск: 32 ГБ eMMC
+Операционная система: Chrome OS
+
+Компьютер: Gaming Laptop
+Процессор: AMD Ryzen 7 5800H
+Оперативная память: 32 ГБ DDR4
+Видеокарта: NVIDIA GeForce RTX 3060
+Жесткий диск: 1 ТБ SSD
+Операционная система: Windows 10 Home
